@@ -44,10 +44,10 @@ To change the QuickSell block.timestamp duration, look for the below code and ch
 **Limits**: 
 - Default limits of 2% has been set for maxTrade (for Swaps) and maxHolding (in wallet)
 - You can change that here:
+  
+i. maxTradeAmount = totalSupply * 20 / 1000; // 20 = 2%, if you want 1% use 10
 
-   maxTradeAmount = totalSupply * 20 / 1000; // 20 = 2%, if you want 1% use 10
-
-  maxHolding = totalSupply * 20 / 1000; // 20 = 2%, if you want 1% use 10
+ii. maxHolding = totalSupply * 20 / 1000; // 20 = 2%, if you want 1% use 10
   
 - Remove Limits has been added to remove all restrictions once stable!
 
