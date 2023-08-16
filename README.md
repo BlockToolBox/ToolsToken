@@ -7,16 +7,27 @@ Go ahead and fork the Tools Token Smart Contract for your Projects or for Testin
 **Constructor Arguments** you will need at the time of Deployment: 
 
 Arg [0] : name (string): YOUR PROJECT NAME
+
 Arg [1] : symbol (string): YOUR TOKEN NAME
+
 Arg [2] : _rescueAddress (address): 0x123456789 // replace this with the Address that rescues tokens from the CA
+
 Arg [3] : _liquifyProtocolAddress (address): 0x123456789 // for Blocktools this our Liquifier CA however you can provide any valid wallet address 
+
 Arg [4] : totalSupply (uint256): INPUT NUMBER HERE FOR YOUR TOTAL SUPPLY in uint256 // example 10000000000000000000
+
 Arg [5] : _buyProtocolFee (uint256): INPUT NUMBER HERE FOR YOUR BUY SELL FEE // example 1,2,3
+
 Arg [6] : _sellProtocolFee (uint256): INPUT NUMBER HERE FOR YOUR SELL FEE // example 1,2,3
+
 Arg [7] : _quickSellProtocolFee (uint256): INPUT NUMBER HERE FOR YOUR QUICK SELL FEE // this is the fee that will apply if holders sell within 1 month, example 1,2,3
+
 Arg [8] : _buyLiquidityFee (uint256): INPUT NUMBER HERE FOR YOUR BUY AUTO LIQUIDITY FEE // example 1,2,3 
+
 Arg [9] : _sellLiquidityFee (uint256): INPUT NUMBER HERE FOR YOUR SELL AUTO LIQUIDITY FEE // example 1,2,3 
+
 Arg [10] : _quickSellLiquidityFee (uint256): INPUT NUMBER HERE FOR YOUR QUICK SELL AUTO LIQUIDITY FEE // this is the fee that will apply if holders sell within 1 month example 1,2,3 
+
 
 To change the QuickSell block.timestamp duration, look for the below code and change the number from 730 to a number of your choice (TOOLS TOKEN is 730 hours, or 1 month) depending on your project. 
 
