@@ -16,7 +16,7 @@ Arg [3] : _liquifyProtocolAddress (address): 0x123456789 // for Blocktools this 
 
 Arg [4] : totalSupply (uint256): INPUT NUMBER HERE FOR YOUR TOTAL SUPPLY in uint256 // example 10000000000000000000
 
-Arg [5] : _buyProtocolFee (uint256): INPUT NUMBER HERE FOR YOUR BUY SELL FEE // example 1,2,3
+Arg [5] : _buyProtocolFee (uint256): INPUT NUMBER HERE FOR YOUR BUY FEE // example 1,2,3
 
 Arg [6] : _sellProtocolFee (uint256): INPUT NUMBER HERE FOR YOUR SELL FEE // example 1,2,3
 
