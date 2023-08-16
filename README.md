@@ -46,7 +46,9 @@ To change the QuickSell block.timestamp duration, look for the below code and ch
 - You can change that here:
 
    maxTradeAmount = totalSupply * 20 / 1000; // 20 = 2%, if you want 1% use 10
-   maxHolding = totalSupply * 20 / 1000; // 20 = 2%, if you want 1% use 10
+
+  maxHolding = totalSupply * 20 / 1000; // 20 = 2%, if you want 1% use 10
+  
 - Remove Limits has been added to remove all restrictions once stable!
 
 **Trade Activation** is done via StartTrading function (without calling this the token will not be swappable!)
